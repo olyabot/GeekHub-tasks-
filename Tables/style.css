@@ -1,0 +1,53 @@
+.table1 {
+	border: 2px outset #000;     /*рамка таблиці*/
+	margin: 0 auto 20px;         /*відступи навколо елементу*/
+}
+
+.table1 th, .table1 td {
+	padding: 0 10px;            /*поле навколо тексту*/
+	width: 275px;               /*ширина таблиці*/
+	border: 2px inset #000;     /*рамка навколо ячейок*/
+}
+
+.table1 .fcol {
+	width: 150px; 				/*ширина колонки*/
+}
+
+.table2 {
+	width: 50%;					/*ширина таблиці*/
+	border: 2px outset #000;    /*рамка таблиці*/
+	margin: 0 auto 20px;        /*відступи навколо елементу*/
+	}
+	
+.table2 th {
+	width: 70px;				/*ширина колонки*/
+	padding: 0 10px;			/*поле навколо тексту*/
+	border: 2px inset #000;		/*рамка навколо ячейок*/
+}
+
+.table2 td {
+	width: 150px; 				/*ширина колонки*/
+	padding: 0 10px;			/*поле навколо тексту*/
+	border: 2px inset #000;		/*рамка навколо ячейок*/
+}
+
+.table3 {
+	border-collapse: collapse;  /*приймаємо подвійну рамку*/
+	width: 50%; 				/*ширина таблиці*/
+	border: 3px groove #000;    /*рамка таблиці*/
+	margin: 0 auto 20px;        /*відступи навколо елементу*/
+}
+.table3 th {
+	border-collapse: collapse;  /*приймаємо подвійну рамку*/
+	/*width: 70px;*/				/*ширина колонки*/
+	padding: 0 10px;			/*поле навколо тексту*/
+	border: 3px groove #000;	/*рамка навколо ячейок*/
+}
+
+.table3 td {
+	border-collapse: collapse;  /*приймаємо подвійну рамку*/
+	width: 150px; 				/*ширина колонки*/
+	padding: 0 10px;			/*поле навколо тексту*/
+	border: 3px groove #000;	/*рамка навколо ячейок*/
+	vertical-align: top;		/*вирівнювання тексту по вертикалі*/
+}
