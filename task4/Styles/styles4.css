@@ -1,0 +1,122 @@
+h2 {
+    font-family: PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 30px;
+    color: #626262;
+}
+p {
+    font-family: PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 14px;
+    color: #626262;    
+}
+small {
+    font-family: Ubuntu-Light,AdobeInvisFont,MyriadPro-Regular;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #626262;
+}
+li {
+    list-style: none;
+}
+.wraper {
+    width: 900px;
+    margin: 0 auto;
+}
+.welcome-section {
+    background: url("../images/header-bg.png") no-repeat;
+    min-height: 100vh;
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 119px;
+    height: 23px;
+    float: left;
+    font-size: 0; /*overflow: hidden*/
+    margin: 70px 0;
+}
+.welcome-menu {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 75px 0;
+    min-width: 575px;
+}
+.main-article {
+    margin-top: 100px;
+}
+.main-article a {
+    font: 14px/50px Ubuntu-Light,AdobeInvisFont,MyriadPro-Regular;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    text-decoration: none;  
+    text-align: left;
+}
+.articles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+.articles div {
+    width: 420px;
+    height: 610px;
+}
+.articles img {
+    margin-bottom: 30px;
+}
+.sign-up {
+    background: #f0f0f0;
+    min-height: 285px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up input,button {
+    background: #f0f0f0;
+    border: none;
+    padding: 0;
+    margin:0;
+    height: 40px;
+}
+.sign-up form {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    border-bottom: 1px solid #000;
+}
+.articles button {
+    background: #fff;
+    border: 1px solid #626262;
+    margin: 0 auto;
+    height: 60px;
+    width: 165px;
+    color: #626262;
+    font: 20px PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular;
+}
+footer {
+    background: #f0f0f0;
+    height: 100px;
+    margin-top: 1370px;
+}
+.nav-footer nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-footer ul {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+}
+.left li{
+    margin-left: 20px
+}
+.right li{
+    margin-right: 20px
+}
