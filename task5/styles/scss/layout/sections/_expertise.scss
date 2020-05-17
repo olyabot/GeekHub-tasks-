@@ -1,0 +1,62 @@
+.expertise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $textColor;
+    padding: {
+        top:70px;
+    };
+}
+
+.horizontal-line__color {
+    @extend .horizontal-line;
+    background: {
+        color: $textColor;
+    };
+}
+
+.expertise_text {
+    @extend .text__size_s;
+    color: #2f2d35;
+    font: {
+        family: $fontPlayfair;
+        weight: 400;
+    }
+    margin: {
+        top: 0;
+    }
+}
+
+.expertise_bloks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: {
+        top: 46px;
+    };
+}
+
+.expertise_elem {
+    // width: 33%;//250px
+    // height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: {
+        top: 37px;
+        bottom: 38px;
+        left: 32px;
+        right: 32px;
+    };
+}
+
+.expertise_img {
+    height: 50px;
+}
+
+.expertise_text__align {
+    @extend .text__size_s;
+    color: #333;
+    width: 230px;
+}
