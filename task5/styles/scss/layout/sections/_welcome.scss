@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: {
+        top: 163px;
+    };
+    text-align: center;
+    &_text__size_s {
+        margin: {
+            top: 30px;
+        };
+        line-height: 21px;
+    }
+    &_dotnav {
+        padding: {
+            top: 120px;
+        }
+    }
+}
+
+.horizontal-line {
+    width: 51px;
+    height: 1px;
+    background: {
+        color: #00E0D0;
+    };
+}

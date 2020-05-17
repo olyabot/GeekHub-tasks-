@@ -1,0 +1,20 @@
+.button {
+    width: 121px;
+    height: 41px;
+    color: #00E0D0;
+    border: 1px solid #00E0D0;
+    margin: {
+        top: 49px;
+    };
+    background: {
+        color: rgba(50, 42, 83, 0);
+    };
+    font: {
+        size: 16px;
+        family: $fontHammersmithOne;
+        weight: 400;
+    }
+    text: {
+        transform: uppercase;
+    }
+}

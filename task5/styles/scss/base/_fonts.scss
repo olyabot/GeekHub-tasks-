@@ -1,0 +1,32 @@
+.main_title {
+    font: {
+        size: 32px;
+        family: $fontPlayfair;
+        weight: 900;
+    };
+}
+
+.text__size_s {
+    font: {
+        size: 14px;
+        family: $fontRoboto;
+        weight: 300;
+    };
+    line-height: 24px;
+}
+
+.text__size_m {
+    font: {
+        size: 16px;
+        family: $fontRoboto;
+        weight: 900;
+    };
+}
+
+.title__size_m {
+    font: {
+        size: 22px;
+        family: $fontPlayfair;
+        weight: 700;
+    }
+}

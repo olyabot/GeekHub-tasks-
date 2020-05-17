@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    @include welcome-background("../../images/header_bg.jpeg");
+    min-height: 100vh;
+    color: $textColorMain;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: {
+        top: 15px;
+    };
+}
+
+.logo {
+    font: {
+        size: 0;
+    }
+    height: 50px;
+    width: 128px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 526px;
+    height: 9px;
+    &_list {
+        list-style: none;
+    }
+    &_link {
+        color: #fff;
+        font: {
+            size: 13px;
+            family: $fontRoboto;
+            weight: 900;
+        };
+        text: {
+            decoration: none;
+            transform: uppercase;
+        };
+        &:hover {
+            color: #00E0D0;
+        }
+    }
+}

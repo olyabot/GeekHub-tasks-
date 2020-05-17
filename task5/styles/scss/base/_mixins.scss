@@ -1,0 +1,8 @@
+@mixin welcome-background($background-url) {
+    background: {
+        image: linear-gradient(rgba(50, 42, 83, .8), rgba(50, 42, 83, .8)), url($background-url);
+        repeat: no-repeat;
+        size: cover;
+        color: #322A53;
+    }
+}
