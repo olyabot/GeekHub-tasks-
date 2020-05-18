@@ -13,7 +13,7 @@
 }
 
 .video {
-    @include welcome-background("../../images/video.jpeg");
+    @include welcome-background("../../images/video_bg.jpeg");
     min-height: 100vh;
     color: $textColorMain;
     display: flex;

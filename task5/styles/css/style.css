@@ -4,7 +4,7 @@
   font-weight: 900;
 }
 
-.text__size_s, .expertise_text, .expertise_text__align {
+.text__size_s, .expertise_text, .expertise_text__align, .team_text, .team-people_text {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -21,6 +21,7 @@
   font-size: 22px;
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .title__size_s {
@@ -30,7 +31,7 @@
   line-height: 24px;
 }
 
-.button {
+.button, .team_button {
   width: 121px;
   height: 41px;
   color: #00E0D0;
@@ -111,7 +112,7 @@ body {
   padding-top: 120px;
 }
 
-.horizontal-line, .horizontal-line__color {
+.horizontal-line, .horizontal-line__color, .horizontal-line__color_white {
   width: 51px;
   height: 1px;
   background-color: #00E0D0;
@@ -130,7 +131,7 @@ body {
 }
 
 .video {
-  background-image: linear-gradient(rgba(50, 42, 83, 0.8), rgba(50, 42, 83, 0.8)), url("../../images/video.jpeg");
+  background-image: linear-gradient(rgba(50, 42, 83, 0.8), rgba(50, 42, 83, 0.8)), url("../../images/video_bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #322A53;
@@ -186,6 +187,54 @@ body {
 .expertise_text__align {
   color: #333;
   width: 230px;
+}
+
+.team {
+  background-image: linear-gradient(rgba(50, 42, 83, 0.8), rgba(50, 42, 83, 0.8)), url("../../images/team_bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #322A53;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.team-people {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.team-people_block {
+  border: 1px solid #e1e1e1;
+}
+
+.team_button {
+  width: 140px;
+  height: 40px;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.team_text {
+  color: #f9f9f9;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.team-people_text {
+  color: #fafafa;
+  font-size: 13px;
+}
+
+.horizontal-line__color_white {
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+.team {
+    @include welcome-background("../../images/team_bg.jpeg");
+    min-height: 100vh;
+    color: $textColorMain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: {
+        top: 70px;
+    };
+}
+
+.team-people {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: {
+        top: 45px;
+        bottom: 45px;
+    }
+}
+
+.team-people_block {
+    border: 1px solid #e1e1e1;
+}
+
+.team_button {
+    @extend .button;
+    width: 140px;
+    height: 40px;
+    border-radius: 2px;
+    margin: {
+        top: 10px;
+    };
+}
+
+.team_text {
+    @extend .text__size_s;
+    color: #f9f9f9;
+    font: {
+        family: $fontPlayfair;
+        weight: 400;
+    }
+    margin: {
+        top: 0;
+    }
+}
+
+.team-people_text {
+    @extend .text__size_s;
+    color: #fafafa;
+    font: {
+        size: 13px;
+    }
+}
+
+.horizontal-line__color_white {
+    @extend .horizontal-line;
+    background: {
+        color: $textColorMain;
+    };
+}
