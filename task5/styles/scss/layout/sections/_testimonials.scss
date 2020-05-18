@@ -1,0 +1,40 @@
+.testimonials {
+    @include welcome-background("../../images/testimonials_bg.jpeg");
+    height: 100vh;
+    color: $textColorMain;
+    text-align: center;
+
+    &_slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    };
+
+    &_comment {
+        @extend .text__size_l;
+        width: 780px;
+        line-height: 26px;
+    };
+
+    &_title {
+        @extend .title__size_s;
+        margin: {
+            bottom: 0;
+        }
+    };
+
+    &_text {
+        @extend .text__size_s;
+        font: {
+            size: 13px;
+        }
+        margin: 0;
+    };
+
+    &_img {
+        margin: {
+            top: 40px;
+        };
+    }
+}

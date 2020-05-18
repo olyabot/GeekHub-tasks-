@@ -1,0 +1,25 @@
+.works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $textColor;
+    padding: {
+        top: 48px;
+    };
+    margin: {
+        bottom: 70px;
+    };
+
+    &_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    };
+
+    &_link {
+        @extend .text__size_s;
+        color: $textColor;
+        text-decoration: none;
+    
+    }
+}
