@@ -21,5 +21,15 @@
         color: $textColor;
         text-decoration: none;
     
+    };
+
+    &_img {
+        float: left;
+        width: 16.6%;
+        &__align {
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 267px;
+        }
     }
 }

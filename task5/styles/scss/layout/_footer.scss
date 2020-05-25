@@ -1,0 +1,91 @@
+.footer {
+    @include welcome-background("../../images/footer_bg.jpeg");
+    height: 400px;
+    color: $textColorMain;
+    padding:  {
+        top: 70px;
+    };
+}
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+
+    &_block {
+        width: 300px;
+        padding: {
+            right: 23px;
+        }
+
+        &__align {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    };
+
+    &_input {
+        width: 200px;
+        height: 45px;
+        background-color: rgba(9, 5, 47, .1);
+        border: 1px solid #fff;
+        padding: {
+            left: 10px;
+        };
+    };
+
+    &_button {
+        width: 70px;
+        height: 50px;
+        background-color: rgba(255, 255, 255, .4);
+        border: 1px solid #fff;
+    };
+
+    &_img {
+        float: left;
+    };
+
+    &_text__align {
+        @extend .text__size_s;
+        margin-left: 25px;
+    }
+
+    &_icon {
+        width: 35px;
+        height: 35px;
+        border-radius: 17px;
+        border: 1px solid #fff;
+
+        &_block {
+            width: 250px;
+            display: flex;
+            justify-content: space-between;
+            margin: {
+                top: 30px;
+            }
+        };
+
+        &__img {
+            display: block;
+            margin: 10px auto;
+        }
+    }
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: {
+        top: 60px;
+    };
+
+    &_block {
+        width: 250px;
+    };
+
+    &_menu {
+        @extend .menu;
+        width: 310px;
+        padding: 0;
+    }
+}

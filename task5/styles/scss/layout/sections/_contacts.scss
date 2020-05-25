@@ -1,0 +1,57 @@
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: $textColor;
+    margin: {
+        top: 70px;
+        bottom: 70px;
+    };
+
+    &_title__align {
+        @extend .title__size_m;
+        margin: {
+            bottom: 33px;
+        }
+    }
+
+    &_block {
+        width: 50%;
+    };
+
+    &_input {
+        padding: {
+            top: 10px;
+            bottom: 10px;
+            left: 15px;
+        }
+        width: 350px;
+        margin: {
+            bottom: 20px;
+        }
+    };
+
+    // &__textarea {
+    //     width: 350px;
+    // };
+
+    &_button {
+        @extend .button;
+        margin: {
+            top: 0;
+        };
+    };
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &_list {
+        margin: {
+            bottom: 45px;
+            right: 80px;
+        };
+    }
+}

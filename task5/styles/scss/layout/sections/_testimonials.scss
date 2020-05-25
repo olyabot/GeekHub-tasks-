@@ -1,8 +1,10 @@
 .testimonials {
     @include welcome-background("../../images/testimonials_bg.jpeg");
-    height: 100vh;
+    // height: 100vh;
+    min-height: 500px;
     color: $textColorMain;
     text-align: center;
+    padding-bottom: 70px;
 
     &_slide {
         display: flex;
