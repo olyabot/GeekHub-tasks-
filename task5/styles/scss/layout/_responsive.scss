@@ -1,0 +1,287 @@
+@media (max-width: 991.98px) {
+
+    .wrapper {
+        max-width: 700px;
+    }
+
+    .main {
+        padding-top: 100px;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    .our-story__align {
+        padding: {
+            left: 40px;
+        };
+    }
+
+    .expertise_bloks {
+        justify-content: center;
+        padding-top: 16px;
+    }
+
+    .expertise_elem {
+        &:nth-child(3n+2) {
+            border: none;
+        };
+
+        &:nth-child(-n+3) {
+            border: none;
+        };
+
+        &:nth-child(2n+1) {
+            border-right: 1px solid rgba(0, 0, 0, .1);
+        };
+
+        &:nth-child(-n+4) {
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+        }
+    }
+
+    .team_item {
+        justify-content: space-around;
+        padding-bottom: 5px;
+    }
+
+    .team_item_block {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .team_button {
+        margin-bottom: 20px;
+    }
+
+    .works_header {
+        width: 600px;
+    }
+
+    .testimonials_comment {
+        width: 550px;
+    }
+
+    .contact_input {
+        width: 250px;
+    }
+
+    .clients {
+        justify-content: space-between;
+    }
+
+    .clients_list {
+        margin-right: 25px;
+    }
+
+    .bottom-footer {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .wrapper {
+        max-width: 500px;
+    }
+    .main_title {
+        font-size: 30px;
+    }
+
+    .title__size_m {
+        margin: 5px;
+    }
+
+    .title__size_s, .text__size_s {
+        font-size: 12px;
+    }
+
+    .menu {
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    .menu_list {
+        margin-right: 10px;
+    }
+
+    .main_dotnav {
+        padding-top: 100px;
+    }
+
+    .our-story {
+        padding-top: 35px;
+    }
+
+    .our-story_img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .our-story__align {
+        padding-left: 20px;
+    }
+
+    .team {
+        padding-top: 35px;
+    }
+
+    .expertise {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .expertise_elem {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        &:nth-child(3n+2) {
+            border: none;
+        };
+
+        &:nth-child(-n+3) {
+            border: none;
+        };
+
+        &:nth-child(2n+1) {
+            border-right: none;
+        };
+
+        &:nth-child(n) {
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+        }
+
+    }
+
+    .works {
+        margin-bottom: 35px;
+        padding-top: 30px;
+    }
+
+    .works_header {
+        margin-bottom: 20px;
+    }
+
+    .works_img {
+        width: 24.6%;
+    }
+
+    .contact {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .contact_block {
+        width: 500px;
+    }
+
+    .contact_input {
+        width: 400px;
+    }
+
+    .contact_button {
+        margin-bottom: 20px;
+    }
+
+    .clients_list {
+        margin-right: 26px;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .clients {
+        justify-content: space-around;
+    }
+
+    .contact_title__align {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .footer {
+        padding-top: 35px;
+    }
+
+    .top-footer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .top-footer_block {
+        width: 225px;
+        padding-right: 15px;
+    }
+
+    .top-footer_button {
+        height: 49px;
+    }
+
+    .top-footer_text {
+        text-align: center;
+    }
+
+    .bottom-footer_menu {
+        width: 210px;
+        height: 60px;
+    }
+
+    .bottom-footer_block {
+        width: 210px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .wrapper {
+        max-width: 300px;
+    }
+
+    .title__size_l {
+        padding-top: 50px;
+    }
+
+    .menu {
+        width: 100px;
+    }
+
+    .our-story {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    .our-story_img {
+        padding-bottom: 20px;
+    }
+
+    .team_item_block {
+        margin-right: 0;
+    }
+
+    .works_header {
+        flex-wrap: wrap;
+    }
+
+    .works_img {
+        width: 50%;
+    }
+
+    .testimonials {
+        padding-bottom: 35px;
+    }
+
+    .testimonials_comment {
+        width: 300px;
+        font-size: 13px;
+    }
+
+    .testimonials_img {
+        width: 290px;
+    }
+
+    .contact_input {
+        width: 260px;
+    }
+}

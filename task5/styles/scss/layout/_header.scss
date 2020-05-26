@@ -4,13 +4,14 @@ body {
 }
 
 .wrapper {
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
 }
 
 .header {
     @include welcome-background("../../images/header_bg.jpeg");
-    min-height: 100vh;
+    // min-height: 100vh;
+    min-height: 670px;
     color: $textColorMain;
 }
 

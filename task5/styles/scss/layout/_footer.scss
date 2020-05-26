@@ -1,6 +1,6 @@
 .footer {
     @include welcome-background("../../images/footer_bg.jpeg");
-    height: 400px;
+    min-height: 400px;
     color: $textColorMain;
     padding:  {
         top: 70px;
@@ -10,6 +10,10 @@
 .top-footer {
     display: flex;
     justify-content: space-between;
+
+    &_text {
+        @extend .text__size_m
+    }
 
     &_block {
         width: 300px;

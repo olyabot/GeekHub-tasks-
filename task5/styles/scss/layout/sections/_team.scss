@@ -1,6 +1,7 @@
 .team {
     @include welcome-background("../../images/team_bg.jpeg");
-    min-height: 100vh;
+    // min-height: 100vh;
+    min-height: 710px;
     color: $textColorMain;
     display: flex;
     flex-direction: column;
