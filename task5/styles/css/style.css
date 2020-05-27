@@ -4,7 +4,7 @@
   font-weight: 900;
 }
 
-.text__size_s, .expertise_text, .expertise_text__align, .team_item_text, .team_text, .works_link, .testimonials_text, .top-footer_text__align {
+.text__size_s, .expertise_text, .expertise_text__align, .team_item_text, .team_text, .works_link, .testimonials_text, .contact_input, .top-footer_input, .top-footer_text__align {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -67,7 +67,7 @@ body {
 }
 
 .wrapper {
-  max-width: 940px;
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -192,8 +192,8 @@ body {
   padding-left: 32px;
   padding-right: 32px;
 }
-.expertise_elem:nth-child(-n+3) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+.expertise_elem:nth-child(n+4) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .expertise_elem:nth-child(3n+2) {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -343,6 +343,7 @@ body {
   padding-bottom: 10px;
   padding-left: 15px;
   width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 .contact_button {
@@ -383,17 +384,20 @@ body {
   justify-content: space-between;
 }
 .top-footer_input {
-  width: 200px;
+  width: 210px;
   height: 45px;
   background-color: rgba(9, 5, 47, 0.1);
   border: 1px solid #fff;
+  box-sizing: border-box;
   padding-left: 10px;
 }
 .top-footer_button {
   width: 70px;
-  height: 50px;
+  height: 45px;
   background-color: rgba(255, 255, 255, 0.4);
   border: 1px solid #fff;
+  box-sizing: border-box;
+  margin-left: 5px;
 }
 .top-footer_img {
   float: left;
@@ -456,14 +460,11 @@ body {
   .expertise_elem:nth-child(3n+2) {
     border: none;
   }
-  .expertise_elem:nth-child(-n+3) {
-    border: none;
-  }
   .expertise_elem:nth-child(2n+1) {
     border-right: 1px solid rgba(0, 0, 0, 0.1);
   }
-  .expertise_elem:nth-child(-n+4) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  .expertise_elem:nth-child(n+3) {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .team_item {
@@ -517,7 +518,7 @@ body {
     margin: 5px;
   }
 
-  .title__size_s, .expertise_title__align, .team_item_title, .testimonials_title, .text__size_s, .expertise_text, .expertise_text__align, .team_item_text, .team_text, .works_link, .testimonials_text, .top-footer_text__align {
+  .title__size_s, .expertise_title__align, .team_item_title, .testimonials_title, .text__size_s, .expertise_text, .expertise_text__align, .team_item_text, .team_text, .works_link, .testimonials_text, .contact_input, .top-footer_input, .top-footer_text__align {
     font-size: 12px;
   }
 
@@ -565,14 +566,11 @@ body {
   .expertise_elem:nth-child(3n+2) {
     border: none;
   }
-  .expertise_elem:nth-child(-n+3) {
-    border: none;
-  }
   .expertise_elem:nth-child(2n+1) {
     border-right: none;
   }
-  .expertise_elem:nth-child(n) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  .expertise_elem:nth-child(n+2) {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .works {
@@ -634,10 +632,6 @@ body {
     padding-right: 15px;
   }
 
-  .top-footer_button {
-    height: 49px;
-  }
-
   .top-footer_text {
     text-align: center;
   }
@@ -649,6 +643,12 @@ body {
 
   .bottom-footer_block {
     width: 210px;
+  }
+
+  .massage_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 575.98px) {
@@ -701,6 +701,10 @@ body {
 
   .contact_input {
     width: 260px;
+  }
+
+  .clients_list {
+    margin-right: 1px;
   }
 }
 

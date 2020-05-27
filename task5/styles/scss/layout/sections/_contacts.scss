@@ -20,20 +20,18 @@
     };
 
     &_input {
+        @extend .text__size_s;
         padding: {
             top: 10px;
             bottom: 10px;
             left: 15px;
         }
         width: 350px;
+        border: 1px solid rgba(0, 0, 0, .1);
         margin: {
             bottom: 20px;
         }
     };
-
-    // &__textarea {
-    //     width: 350px;
-    // };
 
     &_button {
         @extend .button;

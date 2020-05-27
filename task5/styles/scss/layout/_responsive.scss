@@ -2,6 +2,7 @@
 
     .wrapper {
         max-width: 700px;
+        // width: 700px;
     }
 
     .main {
@@ -28,16 +29,12 @@
             border: none;
         };
 
-        &:nth-child(-n+3) {
-            border: none;
-        };
-
         &:nth-child(2n+1) {
             border-right: 1px solid rgba(0, 0, 0, .1);
         };
 
-        &:nth-child(-n+4) {
-            border-bottom: 1px solid rgba(0, 0, 0, .1);
+        &:nth-child(n+3) {
+            border-top: 1px solid rgba(0, 0, 0, .1);
         }
     }
 
@@ -83,6 +80,7 @@
 @media (max-width: 767.98px) {
     .wrapper {
         max-width: 500px;
+        // width: 500px;
     }
     .main_title {
         font-size: 30px;
@@ -141,16 +139,12 @@
             border: none;
         };
 
-        &:nth-child(-n+3) {
-            border: none;
-        };
-
         &:nth-child(2n+1) {
             border-right: none;
         };
 
-        &:nth-child(n) {
-            border-bottom: 1px solid rgba(0, 0, 0, .1);
+        &:nth-child(n+2) {
+            border-top: 1px solid rgba(0, 0, 0, .1);
         }
 
     }
@@ -214,10 +208,6 @@
         padding-right: 15px;
     }
 
-    .top-footer_button {
-        height: 49px;
-    }
-
     .top-footer_text {
         text-align: center;
     }
@@ -230,12 +220,19 @@
     .bottom-footer_block {
         width: 210px;
     }
+
+    .massage_form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 575.98px) {
 
     .wrapper {
         max-width: 300px;
+        // width: 300px;
     }
 
     .title__size_l {
@@ -283,5 +280,9 @@
 
     .contact_input {
         width: 260px;
+    }
+
+    .clients_list {
+        margin-right: 1px;
     }
 }
