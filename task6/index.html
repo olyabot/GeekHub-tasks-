@@ -1,23 +1,149 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
 
-    <link rel="stylesheet" href="styles\css\style.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles\css\style.css">
+        <title>Panakeia</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light text_size_m">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="images/logo.png" alt="Panakeia">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item menu_item">
+                            <a class="nav-link" href="#">Fusce at</a>
+                        </li>
+                        <li class="nav-item menu_item">
+                            <a class="nav-link" href="#">Facilisis</a>
+                        </li>   
+                        <li class="nav-item active menu_item">
+                            <a class="nav-link" href="#">Ante donec</a>
+                        </li>
+                        <li class="nav-item menu_item">
+                            <a class="nav-link" href="#">Blandit rhoncus</a>
+                        </li>
+                        <li class="nav-item menu_item">
+                            <a class="nav-link" href="#">Placerat</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <aside>
+            <section class="welcome container-fluid d-flex flex-column align-items-center">
+                <div class="welcome-head">
+                    <h2 class="title_size_l">Integer at tortor ut magna</h2>
+                    <p class="text_size_l welcome_text__align">finibus lobortis sed quis tellus.</p>
+                </div>
+                <div class="card-deck">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card_bg text-center align-items-center">
+                                <img src="images/main_1.png" alt="Tincidunt" class="card-img-top rounded-circle img__border">
+                                <div class="card-body">
+                                    <h3 class="card-title text_size_l">Tincidunt</h3>
+                                    <p class="card-text text_size_s">Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam tempus egestas efficitur. Sed quam dolor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card_bg text-center align-items-center">
+                                <img src="images/main_2.png" alt="Duis bibendum" class="card-img-top rounded-circle img__border">
+                                <div class="card-body">
+                                    <h3 class="card-title text_size_l">Duis bibendum</h3>
+                                    <p class="card-text text_size_s">Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. In hac habitasse platea dictumst. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card_bg text-center align-items-center">
+                                <img src="images/main_3.png" alt="Donec ligula" class="card-img-top rounded-circle img__border">
+                                <div class="card-body">
+                                    <h3 class="card-title text_size_l">Donec ligula</h3>
+                                    <p class="card-text text_size_s">Nullam tempus egestas efficitur. Sed quam dolor, vulputate sed mattis et, sodales quis orci. Ut arcu arcu, faucibus eu risus blandit,.</p>   
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <button type="button" class="btn btn-light rounded-pill welcome-btn welcome_btn__align">Read more</button>
+            </section>
+            <section class="news container-fluid">
+                <h2 class="title_size_m news_text__color">Our news</h2>
+                <div class="card-deck">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card_bg text-center align-items-center">
+                                <img src="images/news_1.png" alt="Lorem ipsum" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text_size_l news_text__color">Lorem ipsum</h3>
+                                    <p class="card-text text_size_s news_text__color">Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+                                    <a href="#" class="btn btn-light rounded-pill news-btn">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card_bg text-center align-items-center">
+                                <img src="images/news_2.png" alt="Lorem ipsum" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text_size_l news_text__color">Lorem ipsum</h3>
+                                    <p class="card-text text_size_s news_text__color">Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+                                    <a href="#" class="btn btn-light rounded-pill news-btn">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="card card_bg text-center align-items-center">
+                                <img src="images/news_3.png" alt="Lorem ipsum" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text_size_l news_text__color">Lorem ipsum</h3>
+                                    <p class="card-text text_size_s news_text__color">Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+                                    <a href="#" class="btn btn-light rounded-pill news-btn">Read more</a>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid newsletter">
+                <h2 class="title_size_m">Newsletter</h2>
+                <p class="text__align text_size_s">Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus</p>
+                <div class="input-group input_block">
+                    <input type="email" class="form-control rounded-pill news_input" placeholder="email adress">
+                    <div class="input-group-append input-button-block">
+                        <button class="btn btn-light rounded-pill btn-input" type="button">Sign up</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+
+            </section>
+        </aside>
+        <footer>
+
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>

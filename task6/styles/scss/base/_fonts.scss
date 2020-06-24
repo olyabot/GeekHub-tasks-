@@ -1,0 +1,53 @@
+.text_size_s {
+    font: {
+        size: 15px;
+        family: $fontRoboto;
+        weight: 300;
+    };
+    line-height: 30px; // 30px;
+    color: $white;
+    text-align: center;
+}
+
+.text_size_m {
+    font: {
+        size: 18px;
+        family: $fontRobotoSlab;
+        weight: 400;
+    };
+    line-height: 24px;
+    color: $gray;
+    text-align: center;
+}
+
+.text_size_l {
+    font: {
+        size: 18px; // 30px;
+        weight: 700;
+        family: $fontRobotoSlab;
+    }
+    line-height: 18px; // 24px;
+    color: $white;
+    text-align: center;
+}
+
+.title_size_l {
+    font: {
+        size: 45px; // 72px;
+        family: $fontRobotoSlab;
+        weight: 300;
+    };
+    line-height: 40px; // 48px;
+    text-align: center;
+    filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.4));
+}
+
+.title_size_m {
+    font: {
+        size: 30px;
+        family: $fontRobotoSlab;
+        weight: 700;
+    };
+    line-height: 24px;
+    text-align: center;
+}

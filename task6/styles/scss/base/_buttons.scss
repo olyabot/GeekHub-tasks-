@@ -1,0 +1,32 @@
+.welcome-btn {
+    border: 1px solid rgba(255,255,255,0.5);
+    width: 213px;
+    height: 54px;
+    font: {
+        size: 18px;
+        family: $fontRobotoSlab;
+        weight: 400;
+    };
+    color: $darkRed;
+}
+
+.news-btn {
+    border: 1px solid rgba(255,255,255,0.5);
+    width: 179px;
+    height: 48px;
+    font: {
+        size: 15px;
+        family: $fontRoboto;
+        weight: 300;
+    };
+    color: #4e5159;
+    line-height: 30px;
+}
+
+.btn-input {
+    width: 190px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,0.5);
+    color: $darkRed;
+    font-size: 18px;
+}

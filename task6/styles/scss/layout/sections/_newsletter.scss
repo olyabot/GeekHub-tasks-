@@ -1,0 +1,45 @@
+.newsletter {
+    @include welcome-background($gradientLight, "../../images/footer_bg.jpg");
+    color: $white;
+    padding: {
+        top: 90px;
+        bottom: 105px;
+    };
+}
+
+.input_block {
+    width: 509px;
+    position: relative;
+    border-radius: 27px;
+    margin: 42px auto 0;
+}
+
+.text__align {
+    max-width: 540px;
+    margin: 20px auto 0;
+}
+
+.news_input {
+    font-size: 18px;
+    color: #f3f4f6;
+    border-radius: 50px;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: {
+        left: 25px;
+        right: 37px;
+    }
+    margin-right: -30px;
+    &::placeholder {
+        color: #f3f4f6;
+        opacity: 1;
+    }
+    &:focus {
+        background-color: rgba(255,255,255,0.2);
+        color: #f3f4f6;
+    }
+}
+
+.input-button-block {
+    z-index: 9;
+}

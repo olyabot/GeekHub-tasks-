@@ -1,0 +1,8 @@
+@mixin welcome-background($gradient, $background-url) {
+    background: {
+        image: linear-gradient($gradient), url($background-url);
+        repeat: no-repeat;
+        size: cover;
+        color: #fff;
+    }
+}

@@ -1,0 +1,41 @@
+.welcome {
+    @include welcome-background($gradientDark, "../../images/main_bg.jpeg");
+    height: 100vh;
+    color: $white;
+
+    &-head {
+        padding: {
+            top: 120px; // 489px
+        };
+    }
+
+    &_text__align {
+        padding: {
+            top: 20px;
+        };
+    }
+
+    &_btn__align {
+        margin: {
+            top: 38px; // 78px
+            bottom: 38px;
+        };
+    }
+}
+
+.card_bg {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.img__border {
+    width: auto;
+    border: 7px solid #edeff1;
+}
+
+.card-deck {
+    margin: 0;
+    padding: {
+        top: 35px; // 129px
+    };
+}
