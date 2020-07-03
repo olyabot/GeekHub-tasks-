@@ -1,6 +1,6 @@
 .welcome {
     @include welcome-background($gradientDark, "../../images/main_bg.jpeg");
-    height: 100vh;
+    height: auto;
     color: $white;
 
     &-head {
