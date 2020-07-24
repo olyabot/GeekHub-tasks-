@@ -1,0 +1,173 @@
+.header_bg {
+    background-color: #000;
+}
+
+// .header {
+//     height: 100vh;
+// }
+
+.search-block {
+    border: 1px solid #85939f;
+    color: #85939f;
+
+    &_input {
+        background-color: transparent;
+        border: none;
+        @extend .text__size_s;
+        font: {
+            family: "Lato";
+            weight: 400;
+        }
+
+        &:focus {
+            background-color: transparent;
+            border: none;
+            box-shadow: none;
+            color: #85939f;
+        }
+
+        &::placeholder {
+            color: #85939f;
+        }
+    }
+}
+
+.icon__align {
+    padding: {
+        right: 5px;
+    };
+}
+
+.menu {
+    padding: {
+        top: 0;
+        bottom: 0;
+    };
+    text-transform: uppercase;
+
+    &-item {
+        width: 99px;
+
+        &:first-child {
+            border-top: 10px solid #ffae00;          
+        }
+        &:nth-child(2) {
+            border-top: 10px solid #fc7100;
+        }
+        &:nth-child(3) {
+            border-top: 10px solid #e51c5e;
+        }
+        &:nth-child(4) {
+            border-top: 10px solid #ae0f8d;
+        }
+        &:nth-child(5) {
+            border-top: 10px solid #6d0fae;
+        }
+        &:nth-child(6) {
+            border-top: 10px solid #33227a;
+        }
+        &:nth-child(7) {
+            border-top: 10px solid #0c8fcc;
+        }
+    }
+
+    &-link {
+        @extend .text__size_s;
+        color: #fff !important;
+        text-align: center;
+        
+        &:hover {
+            color: #000 !important;
+        }
+    }
+}
+
+.hvr-sweep-to-bottom {
+    &:first-child {
+        &::before{
+            background-color: #ffae00;
+        }
+    }
+    &:nth-child(2) {
+        &::before{
+            background-color: #fc7100;
+        }
+    }
+    &:nth-child(3) {
+        &::before{
+            background-color: #e51c5e;
+        }
+    }
+    &:nth-child(4) {
+        &::before{
+            background-color: #ae0f8d;
+        }
+    }
+    &:nth-child(5) {
+        &::before{
+            background-color: #6d0fae;
+        }
+    }
+    &:nth-child(6) {
+        &::before{
+            background-color: #33227a;
+        }
+    }
+    &:nth-child(7) {
+        &::before{
+            background-color: #0c8fcc;
+        }
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-indicators .active {
+    background-color: $secondaryColor;
+}
+
+.carousel_btn-block {
+    margin: {
+        top: 10%;
+    };
+}
+
+.btn-info {
+    background-color: $secondaryColor;
+    border: 1px solid $secondaryColor;
+    text-transform: uppercase;
+    font: {
+        size: 12px;
+        weight: 700;
+        family: "Oxygen";
+    }
+    // line-height: 25px;
+    // letter-spacing: 1px;
+}
+
+.btn-outline-info {
+    border: 1px solid $secondaryColor;
+    color: $secondaryColor;
+    text-transform: uppercase;
+    font: {
+        size: 12px;
+        weight: 700;
+        family: "Oxygen";
+    }
+    // line-height: 25px;
+    // letter-spacing: 1px;
+}
+
+.btn-info, 
+.btn-outline-info {
+    &:hover {
+        background-color: $mainColor;
+        border: 1px solid $mainColor;
+        color: $secondaryColor;
+    }
+}
+

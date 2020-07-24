@@ -1,0 +1,78 @@
+.text__size_l {
+    font: {
+        size: 6vmax;
+        weight: 300;
+        family: "Oxygen";
+    };
+    line-height: 7vmax;
+}
+
+.secondary_text__color {
+    color: $secondaryColor;
+}
+
+.text__size_m {
+    font: {
+        size: 18px;
+        weight: 300;
+        family: "Oxygen";
+    };
+    line-height: 30px;
+    color: #3b4954;
+}
+
+.text__size_s {
+    font: {
+        size: 12px;
+        weight: 300;
+        family: "Oxygen";
+    };
+    line-height: 35px;
+    color: #85939f;
+}
+
+.title__size_l {
+    font: {
+        size: 36px;
+        weight: 300;
+        family: "Oxygen";
+    };
+    line-height: 20px;
+    color: #3b4954;
+    text-align: center;
+}
+
+
+// @media (max-width: 992px) {
+//     .text__size_l {
+//         font: {
+//             size: 50px;
+//         };
+//         line-height: 60px;
+    
+//     }
+// }
+
+// @media (max-width: 768px) {
+//     .text__size_l {
+//         font: {
+//             size: 35px;
+//         };
+//         line-height: 45px;
+    
+//     }
+// }
+
+@media (max-width: 576px) {
+    .text__size_l {
+        font: {
+            size: 6vmin;
+        };
+        line-height: 7vmin;
+    
+    }
+
+    .text__size_s {
+        line-height: 0;
+    }
+}

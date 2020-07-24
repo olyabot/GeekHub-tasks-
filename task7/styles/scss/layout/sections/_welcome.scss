@@ -1,0 +1,39 @@
+.welcome_btn_style {
+    border: 3px solid $secondaryColor;
+
+    &:hover {
+        background: {
+            color: #EEE;
+        }
+        border: 1px solid #EEE;
+        color: $secondaryColor;
+    }
+
+    margin: {
+        bottom: 100px;
+    }
+}
+
+.horizontal-line {
+    width: 50px;
+    height: 5px;
+    background-color: #EEE;
+}
+
+.welcome-title__align {
+    text-align: center;
+    padding: {
+        top: 100px;
+    }
+}
+
+.welcome-text__align {
+    max-width: 773px;
+    text-align: center;
+    padding: {
+        top:45px;
+        right: 15px;
+        bottom: 45px;
+        left: 15px;
+    }
+}

@@ -1,0 +1,241 @@
+.text__size_l {
+  font-size: 6vmax;
+  font-weight: 300;
+  font-family: "Oxygen";
+  line-height: 7vmax;
+}
+
+.secondary_text__color {
+  color: #02baab;
+}
+
+.text__size_m {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Oxygen";
+  line-height: 30px;
+  color: #3b4954;
+}
+
+.text__size_s, .search-block_input, .menu-link {
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Oxygen";
+  line-height: 35px;
+  color: #85939f;
+}
+
+.title__size_l {
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "Oxygen";
+  line-height: 20px;
+  color: #3b4954;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .text__size_l {
+    font-size: 6vmin;
+    line-height: 7vmin;
+  }
+
+  .text__size_s, .search-block_input, .menu-link {
+    line-height: 0;
+  }
+}
+.header_bg {
+  background-color: #000;
+}
+
+.search-block {
+  border: 1px solid #85939f;
+  color: #85939f;
+}
+.search-block_input {
+  background-color: transparent;
+  border: none;
+  font-family: "Lato";
+  font-weight: 400;
+}
+.search-block_input:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: #85939f;
+}
+.search-block_input::placeholder {
+  color: #85939f;
+}
+
+.icon__align {
+  padding-right: 5px;
+}
+
+.menu {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
+.menu-item {
+  width: 99px;
+}
+.menu-item:first-child {
+  border-top: 10px solid #ffae00;
+}
+.menu-item:nth-child(2) {
+  border-top: 10px solid #fc7100;
+}
+.menu-item:nth-child(3) {
+  border-top: 10px solid #e51c5e;
+}
+.menu-item:nth-child(4) {
+  border-top: 10px solid #ae0f8d;
+}
+.menu-item:nth-child(5) {
+  border-top: 10px solid #6d0fae;
+}
+.menu-item:nth-child(6) {
+  border-top: 10px solid #33227a;
+}
+.menu-item:nth-child(7) {
+  border-top: 10px solid #0c8fcc;
+}
+.menu-link {
+  color: #fff !important;
+  text-align: center;
+}
+.menu-link:hover {
+  color: #000 !important;
+}
+
+.hvr-sweep-to-bottom:first-child::before {
+  background-color: #ffae00;
+}
+.hvr-sweep-to-bottom:nth-child(2)::before {
+  background-color: #fc7100;
+}
+.hvr-sweep-to-bottom:nth-child(3)::before {
+  background-color: #e51c5e;
+}
+.hvr-sweep-to-bottom:nth-child(4)::before {
+  background-color: #ae0f8d;
+}
+.hvr-sweep-to-bottom:nth-child(5)::before {
+  background-color: #6d0fae;
+}
+.hvr-sweep-to-bottom:nth-child(6)::before {
+  background-color: #33227a;
+}
+.hvr-sweep-to-bottom:nth-child(7)::before {
+  background-color: #0c8fcc;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-indicators .active {
+  background-color: #02baab;
+}
+
+.carousel_btn-block {
+  margin-top: 10%;
+}
+
+.btn-info {
+  background-color: #02baab;
+  border: 1px solid #02baab;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Oxygen";
+}
+
+.btn-outline-info {
+  border: 1px solid #02baab;
+  color: #02baab;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Oxygen";
+}
+
+.btn-info:hover,
+.btn-outline-info:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #02baab;
+}
+
+.welcome_btn_style {
+  border: 3px solid #02baab;
+  margin-bottom: 100px;
+}
+.welcome_btn_style:hover {
+  background-color: #EEE;
+  border: 1px solid #EEE;
+  color: #02baab;
+}
+
+.horizontal-line {
+  width: 50px;
+  height: 5px;
+  background-color: #EEE;
+}
+
+.welcome-title__align {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.welcome-text__align {
+  max-width: 773px;
+  text-align: center;
+  padding-top: 45px;
+  padding-right: 15px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .welcome_btn-block {
+    margin-top: 5%;
+  }
+
+  .carousel-caption {
+    top: 40%;
+  }
+}
+@media (max-width: 576px) {
+  .header_btn {
+    width: 100px;
+    font-size: 8px;
+  }
+
+  .form-control {
+    width: 90%;
+  }
+
+  .carousel-indicators {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .welcome_btn_style {
+    margin-bottom: 50px;
+  }
+
+  .welcome-title__align {
+    padding-top: 50px;
+  }
+
+  .welcome-text__align {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
